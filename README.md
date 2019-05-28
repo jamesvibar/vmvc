@@ -6,4 +6,4 @@ This is a project from following Brad Traversy's Object Oriented PHP course.
 
 Todo:
 
-- [ ] add instructions on how to use
+- [ ] add documentation
