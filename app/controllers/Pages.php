@@ -7,14 +7,14 @@ class Pages extends Controller
   public function index()
   {
 
-    $data = ['title' => 'Welcome'];
+    $data = ['title' => 'Shareposts', 'description' => 'Simple social network build on the VibarMVC PHP framework'];
 
     $this->view('pages/index', $data);
   }
 
   public function about()
   {
-    $data = ['title' => 'About'];
+    $data = ['title' => 'About', 'description' => 'App to share posts with other users'];
     $this->view('pages/about', $data);
   }
 }

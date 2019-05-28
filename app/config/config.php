@@ -2,10 +2,11 @@
 
 // Database
 define('DB_HOST', 'localhost');
-define('DB_USER', '__YOUR_USER__');
-define('DB_PASSWORD', '__YOUR_PASSWORD__');
-define('DB_NAME', '__YOUR_DBNAME__');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '123qweasd');
+define('DB_NAME', 'shareposts');
 
 define('APP_ROOT', dirname(__FILE__, 2));
-define('URL_ROOT', '__YOUR_URL__');
-define('SITE_NAME', '__YOUR_SITENAME__');
+define('APP_VERSION', '1.0.0');
+define('URL_ROOT', 'http://localhost/shareposts');
+define('SITE_NAME', 'Shareposts');
